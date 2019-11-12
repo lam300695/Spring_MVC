@@ -21,7 +21,7 @@ public class EmailController {
         pattern = Pattern.compile(EMAIL_REGEX);
     }
 
-    @GetMapping("")
+    @GetMapping("/")
     String getIndex() {
         return "index";
     }
