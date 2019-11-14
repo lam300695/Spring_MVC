@@ -6,7 +6,24 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c961914-1d19-4560-abec-bf127ac1eb75" name="Default Changelist" comment="" />
+    <list default="true" id="4c961914-1d19-4560-abec-bf127ac1eb75" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../SpringControllersSanWich/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringControllersSanWich/.idea/artifacts/SpringControllersSanWich_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringControllersSanWich/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringControllersSanWich/.idea/libraries/Spring_MVC_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringControllersSanWich/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringControllersSanWich/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringControllersSanWich/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringControllersSanWich/SpringControllersSanWich.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringControllersSanWich/src/controllers/contronller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringControllersSanWich/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringControllersSanWich/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringControllersSanWich/web/WEB-INF/views/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringControllersSanWich/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/.idea/modules/spring-timezone.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Converter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Converter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +39,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -30,6 +50,7 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1TSvYRPXnx6wUfl1HmiXtP8GSXz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -140,21 +161,26 @@
       <workItem from="1573469082228" duration="995000" />
       <workItem from="1573480820325" duration="773000" />
       <workItem from="1573521992957" duration="1408000" />
+      <workItem from="1573574384228" duration="28000" />
+      <workItem from="1573575607133" duration="123000" />
+      <workItem from="1573575779224" duration="12000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/controllers/Controllers.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
