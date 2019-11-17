@@ -7,21 +7,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c961914-1d19-4560-abec-bf127ac1eb75" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../SpringControllersSanWich/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringControllersSanWich/.idea/artifacts/SpringControllersSanWich_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringControllersSanWich/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringControllersSanWich/.idea/libraries/Spring_MVC_4_3_18_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringControllersSanWich/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringControllersSanWich/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringControllersSanWich/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringControllersSanWich/SpringControllersSanWich.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringControllersSanWich/src/controllers/contronller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringControllersSanWich/web/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringControllersSanWich/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringControllersSanWich/web/WEB-INF/views/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringControllersSanWich/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-timezone/.idea/modules/spring-timezone.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Converter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Converter/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Customers/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Customers/.idea/modules/Customers.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Customers/.idea/modules/Customers.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Customers/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Customers/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Customers/src/main/java/com/codegym/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Customers/src/main/java/com/codegym/controlles/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Customers/src/main/java/com/codegym/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Customers/src/main/java/com/codegym/service/CustomerSevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Customers/src/main/java/com/codegym/service/CustomerSeviceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Customers/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Customers/src/main/webapp/WEB-INF/dipatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Customers/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Customers/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Customers/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ORM-Customer/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ORM-Customer/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ORM-Customer/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ORM-Customer/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ORM-Customer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ORM-Customer/src/main/java/com/codegym/cms/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ORM-Customer/src/main/java/com/codegym/cms/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ORM-Customer/src/main/java/com/codegym/cms/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ORM-Customer/src/main/java/com/codegym/cms/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ORM-Customer/src/main/java/com/codegym/cms/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ORM-Customer/src/main/java/com/codegym/cms/repository/CustomerRepositoryImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ORM-Customer/src/main/java/com/codegym/cms/repository/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ORM-Customer/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thymleft/.idea/modules/thymleft.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Customers/.idea/artifacts/Customers_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Customers/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Customers/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Customers/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Customers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Customers/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -164,6 +182,7 @@
       <workItem from="1573574384228" duration="28000" />
       <workItem from="1573575607133" duration="123000" />
       <workItem from="1573575779224" duration="12000" />
+      <workItem from="1573780718281" duration="630000" />
     </task>
     <servers />
   </component>

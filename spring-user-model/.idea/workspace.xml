@@ -6,7 +6,189 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36d0e360-96a6-4542-9804-0e72de02b36c" name="Default Changelist" comment="" />
+    <list default="true" id="36d0e360-96a6-4542-9804-0e72de02b36c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Customers/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Customers/.idea/modules/Customers.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Customers/.idea/modules/Customers.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Customers/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Customers/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Customers/src/main/java/com/codegym/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Customers/src/main/java/com/codegym/controlles/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Customers/src/main/java/com/codegym/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Customers/src/main/java/com/codegym/service/CustomerSevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Customers/src/main/java/com/codegym/service/CustomerSeviceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Customers/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Customers/src/main/webapp/WEB-INF/dipatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Customers/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Customers/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Customers/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ORM-Customer/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ORM-Customer/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ORM-Customer/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ORM-Customer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ORM-Customer/src/main/java/com/codegym/cms/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ORM-Customer/src/main/java/com/codegym/cms/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ORM-Customer/src/main/java/com/codegym/cms/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ORM-Customer/src/main/java/com/codegym/cms/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ORM-Customer/src/main/java/com/codegym/cms/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ORM-Customer/src/main/java/com/codegym/cms/repository/CustomerRepositoryImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ORM-Customer/src/main/java/com/codegym/cms/repository/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ORM-Customer/src/main/java/com/codegym/cms/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ORM-Customer/src/main/java/com/codegym/cms/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ORM-Customer/src/main/webapp/WEB-INF/views/customer/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ORM-Customer/src/main/webapp/WEB-INF/views/customer/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringController-Email/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringController-Email/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringController-Email/.gradle/5.2.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringController-Email/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringController-Email/.gradle/5.2.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringController-Email/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringController-Email/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringController-Email/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringController-Email/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringController-Email/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringController-Email/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringController-Email/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringController-Email/.idea/modules/SpringController-Email.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringController-Email/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringController-Email/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringController-Email/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringController-Email/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringController-Email/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringController-Email/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringController-Email/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringController-Email/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringController-Email/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/.idea/modules/Test.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/src/main/java/com/codegym/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/src/main/java/com/codegym/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/src/main/java/com/codegym/controller/CustomerContronller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/src/main/webapp/WEB-INF/views/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test2/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test2/.idea/modules/Test2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test2/.idea/modules/Test2.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test2/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test2/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test2/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test2/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test2/src/main/java/com/codegym/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test2/src/main/java/com/codegym/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test2/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test2/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test2/src/main/webapp/WEB-INF/views/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test2/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test3/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test3/.idea/modules/Test3.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test3/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test3/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test3/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test3/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test3/src/main/java/com/codegym/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test3/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test3/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test3/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.codegym/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.codegym/.idea/artifacts/com_codegym_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.codegym/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.codegym/.idea/libraries/Spring_MVC_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.codegym/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.codegym/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.codegym/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.codegym/com.codegym.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.codegym/src/com/codegym/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.codegym/src/com/codegym/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.codegym/src/com/codegym/model/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.codegym/src/com/codegym/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.codegym/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.codegym/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.codegym/web/WEB-INF/views/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.codegym/web/WEB-INF/views/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.codegym/web/WEB-INF/views/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thymleft/.idea/modules/thymleft.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuHocMVC/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuHocMVC/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuHocMVC/.gradle/5.2.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuHocMVC/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuHocMVC/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuHocMVC/.gradle/5.2.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuHocMVC/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuHocMVC/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuHocMVC/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuHocMVC/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuHocMVC/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuHocMVC/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuHocMVC/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuHocMVC/.idea/modules/tuHocMVC.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuHocMVC/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuHocMVC/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuHocMVC/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuHocMVC/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuHocMVC/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuHocMVC/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuHocMVC/src/main/java/com/codegym/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuHocMVC/src/main/java/com/codegym/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuHocMVC/src/main/java/com/codegym/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuHocMVC/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuHocMVC/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuHocMVC/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuHocMVC/src/main/webapp/WEB-INF/views/menu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuHocMVC/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled3/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled3/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled3/.gradle/5.2.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled3/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled3/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled3/.gradle/5.2.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled3/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled3/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled3/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled3/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled3/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled3/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled3/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled3/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled3/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled3/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../validate-infor-user/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../validate-infor-user/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../validate-infor-user/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../validate-infor-user/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Customers/.idea/artifacts/Customers_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Customers/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Customers/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Customers/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Customers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Customers/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Library/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMvc_Login/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMvc_Login/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymleft/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../thymleft/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymleft/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../thymleft/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymleft/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../thymleft/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymleft/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../thymleft/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +205,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -31,6 +216,7 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1TSAL6KARBZ6eWQuxYt1LuW3u9o" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -205,10 +391,22 @@
       <workItem from="1573443066284" duration="2794000" />
       <workItem from="1573445903809" duration="3873000" />
       <workItem from="1573462172833" duration="383000" />
+      <workItem from="1574004304052" duration="34000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
