@@ -19,11 +19,11 @@ public class EmployController {
     private CustomerService customerService;
 
     @Autowired
-    private DeparmentService provinceService;
+    private DeparmentService deparmentService;
 
-    @ModelAttribute("provinces")
-    public Iterable<Deparment> provinces() {
-        return provinceService.findAll();
+    @ModelAttribute("deparments")
+    public Iterable<Deparment> deparments() {
+        return deparmentService.findAll();
     }
 
     @GetMapping("/create-customer")

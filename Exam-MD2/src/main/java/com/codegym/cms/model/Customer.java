@@ -13,15 +13,15 @@ public class Customer {
     private String lastName;
 
     @ManyToOne
-    @JoinColumn(name = "province_id")
-    private Deparment province;
+    @JoinColumn(name = "deparment_id")
+    private Deparment deparment;
 
-    public Deparment getProvince() {
-        return province;
+    public Deparment getDeparment() {
+        return deparment;
     }
 
-    public void setProvince(Deparment province) {
-        this.province = province;
+    public void setDeparment(Deparment deparment) {
+        this.deparment = deparment;
     }
 
     public Customer() {}

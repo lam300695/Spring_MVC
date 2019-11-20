@@ -22,7 +22,7 @@ public class DeparmentController {
     private CustomerService customerService;
 
     @GetMapping("/view-deparment/{id}")
-    public ModelAndView viewProvince(@PathVariable("id") Long id) {
+    public ModelAndView viewDeparment(@PathVariable("id") Long id) {
         Deparment deparment = deparmentService.findById(id);
         if (deparment == null) {
             return new ModelAndView("/error.404");
@@ -35,7 +35,7 @@ public class DeparmentController {
     }
 
     @GetMapping("/deparments")
-    public ModelAndView listProvinces() {
+    public ModelAndView listDeparments() {
         Iterable<Deparment> deparments = deparmentService.findAll();
         ModelAndView modelAndView = new ModelAndView("/deparment/list");
         modelAndView.addObject("deparments", deparments);
@@ -50,7 +50,7 @@ public class DeparmentController {
     }
 
     @PostMapping("/create-deparment")
-    public ModelAndView saveProvince(@ModelAttribute("province") Deparment deparment) {
+    public ModelAndView saveDeparment(@ModelAttribute("deparment") Deparment deparment) {
         deparmentService.save(deparment);
 
         ModelAndView modelAndView = new ModelAndView("/deparment/create");
@@ -59,7 +59,7 @@ public class DeparmentController {
         return modelAndView;
     }
 
-    @GetMapping("/edit-province/{id}")
+    @GetMapping("/edit-deparment/{id}")
     public ModelAndView showEditForm(@PathVariable Long id) {
         Deparment deparment = deparmentService.findById(id);
         if (deparment != null) {
@@ -97,7 +97,7 @@ public class DeparmentController {
     }
 
     @PostMapping("/delete-deparment")
-    public String removeProvince(@ModelAttribute("deparment") Deparment deparment) {
+    public String removeDeparment(@ModelAttribute("deparment") Deparment deparment) {
         deparmentService.remove(deparment.getId());
         return "redirect:deparment";
     }
