@@ -23,7 +23,7 @@
             <td><input type="text" th:field="*{lastName}"/></td>
         </tr>
         <tr>
-            <td>Province:</td>
+            <td>Deparment:</td>
             <td>
                 <select th:field="*{deparment}">
                     <option th:each="p : ${deparments}" th:value="${p.id}" th:text="${p.name}"></option>

@@ -6,12 +6,13 @@
 </head>
 <body>
 <a href="/create-customer">Create new customer</a>
-<h1>Customers</h1>
+<h1 th:text="#{login.heading}"></h1>
+Language: <a href="?lang=en">English</a> | <a href="?lang=haw">Hawaii</a>
 <table border="1">
     <tr>
-        <th>First name</th>
-        <th>Last name</th>
-        <th>Province</th>
+        <th th:text="#{login.firstname_label}"></th>
+        <th th:text="#{login.lastname_label}"></th>
+        <th>Deparment</th>
         <th>Edit</th>
         <th>Delete</th>
     </tr>
@@ -19,7 +20,7 @@
         <tr>
             <td th:text="${customer.firstName}"></td>
             <td th:text="${customer.lastName}"></td>
-            <td th:text="${customer.province.name}"></td>
+            <td th:text="${customer.deparment.name}"></td>
             <td><a th:href="@{/edit-customer/__${customer.id}__ }">Edit</a></td>
             <td><a th:href="@{/delete-customer/__${customer.id}__ }">Delete</a></td>
         </tr>

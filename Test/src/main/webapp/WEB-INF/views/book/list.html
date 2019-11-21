@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a href="/create-book">Create New Book</a>
+<h1>List Books</h1>
+
+<form>
+    Search by Category:
+    <input name="s" type="text"/>
+    <input type="submit" value="Search"/>
+</form>
+<br/>
+
+<table border="1">
+    <tr>
+        <th> Tên Sách</th>
+        <th>Ngày phát hành</th>
+        <th>Tác giả</th>
+        <th>Giá </th>
+        <th>Tiêu đề</th>
+        <th>Thể loại</th>
+        <th>Edit</th>
+        <th>Delete</th>
+        <th>Doc Truyen</th>
+    </tr>
+    <th:block th:each="x : ${books}">
+        <tr>
+            <td th:text="${x.name}"></td>
+            <td th:text="${x.dateOfPurchase}"></td>
+            <td th:text="${x.author}"></td>
+            <td th:text="${x.price}"></td>
+            <td th:text="${x.noidung}"></td>
+            <td th:text="${x.category.name}"></td>
+            <td><a th:href="@{/edit-book/__${x.id}__ }">Edit</a></td>
+            <td><a th:href="@{/delete-book/__${x.id}__ }">Delete</a></td>
+            <td><a th:href="@{/view-book/__${x.id}__ }">Xem</a></td>
+        </tr>
+    </th:block>
+</table>
+<div>
+    <a th:href="@{'/books'(page=${books.number - 1})}" th:if="${books.hasPrevious()}">Previous</a>
+    <span th:text="${books.number + 1}"></span>/<span th:text="${books.totalPages}"></span>
+    <a th:href="@{'/employees'(page=${books.number + 1})}" th:if="${books.hasNext()}">Next</a>
+</div>
+</body>
+</html>

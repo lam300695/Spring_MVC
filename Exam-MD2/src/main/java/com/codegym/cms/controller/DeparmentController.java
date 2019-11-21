@@ -22,8 +22,8 @@ public class DeparmentController {
     private CustomerService customerService;
 
     @GetMapping("/view-deparment/{id}")
-    public ModelAndView viewDeparment(@PathVariable("id") Long id) {
-        Deparment deparment = deparmentService.findById(id);
+    public ModelAndView viewDeparment(@PathVariable("id") Deparment deparment) {
+//        Deparment deparment = deparmentService.findById(id);
         if (deparment == null) {
             return new ModelAndView("/error.404");
         }
