@@ -52,11 +52,6 @@ public class ApplicationConfig extends WebMvcConfigurerAdapter implements Applic
 
     private ApplicationContext applicationContext;
 
-//    @Override
-//    public void addFormatters(FormatterRegistry registry) {
-//        registry.addFormatter(new DeparmentFormatter(applicationContext.getBean(DeparmentService.class)));
-//    }
-
     @Override
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
         this.applicationContext = applicationContext;
