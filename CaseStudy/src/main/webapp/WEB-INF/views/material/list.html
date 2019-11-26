@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a href="/create-material">Create new material</a>
+<!--<br/>-->
+<!--<a href="/create-supplier">Create new supplier</a>-->
+<h1>Material</h1>
+<form>
+    Search by name:
+    <input name="s" type="text"/>
+    <input type="submit" value="Search"/>
+</form>
+<br/>
+<p><a href="/sortByPriceLow" ><button type="button">Sort Price Low to Hight</button></a></p>
+<p><a href="/sortByPriceH"><button type="button">Sort Price Hight to Low</button></a></p>
+<!--<form action="/searchBySupplier" onchange="this.submit()">-->
+<!--&lt;!&ndash;    <a>Search By Supplier </a>&ndash;&gt;-->
+<!--&lt;!&ndash;    <select name="search">&ndash;&gt;-->
+<!--&lt;!&ndash;        <option value=-1></option>&ndash;&gt;-->
+<!--&lt;!&ndash;        <option th:each="d:${suppliers}" th:text="${d.name}" th:value="${d.getId()}" th:selected="(${d.getId()} == ${search})"></option>&ndash;&gt;-->
+<!--&lt;!&ndash;    </select>&ndash;&gt;-->
+<!--</form>-->
+<table border="1">
+    <tr>
+        <th>Code</th>
+        <th>Name</th>
+        <th>Date</th>
+        <th>Decri</th>
+        <th>price</th>
+        <th>quantity</th>
+        <th>Supplier Name</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+    <th:block th:each="material : ${materials}">
+        <tr>
+            <td th:text="${material.code}"></td>
+            <td th:text="${material.name}">
+            <td th:text="${material.importDate}">
+            <td th:text="${material.description}">
+            <td th:text="${material.price}">
+            <td th:text="${material.quantity}">
+            <td th:text="${material.getSupplier().getName()}"></td>
+            <td><a th:href="@{/edit-material/__${material.id}__ }">Edit</a></td>
+            <td><a th:href="@{/delete-material/__${material.id}__ }">Delete</a></td>
+        </tr>
+    </th:block>
+    <div>
+        <a th:href="@{'/materials'(page=${materials.number - 1})}" th:if="${materials.hasPrevious()}">Previous</a>
+        <span th:text="${materials.number + 1}"></span>/<span th:text="${materials.totalPages}"></span>
+        <a th:href="@{'/materials'(page=${materials.number + 1})}" th:if="${materials.hasNext()}">Next</a>
+    </div>
+</table>
+</body>
+</html>
