@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a href="/create-item">Create new item</a>
+
+<h1 style="color: deeppink">Item</h1>
+<form>
+    Search by name:
+    <input name="s" type="text"/>
+    <input type="submit" value="Search"/>
+</form>
+<br/>
+<p><a href="/sortByPriceLow">
+    <button type="button">Sort Price Low to Hight</button>
+</a></p>
+<p><a href="/sortByPriceH">
+    <button type="button">Sort Price Hight to Low</button>
+</a></p>
+
+<table border="1">
+    <tr>
+        <th>Code</th>
+        <th>Name</th>
+        <th>Date</th>
+        <th>Decri</th>
+        <th>price</th>
+        <th>quantity</th>
+        <th>Sector Name</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+    <th:block th:each="item : ${items}">
+        <tr>
+            <td th:text="${item.code}" style="color: lawngreen"></td>
+            <td th:text="${item.name}" style="color: red">
+            <td th:text="${item.importDate}" style="color: deeppink">
+            <td th:text="${item.description}"style="color: darkorchid">
+            <td th:text="${item.price}"style="color: darkturquoise">
+            <td th:text="${item.quantity}"style="color: darkred">
+            <td th:text="${item.getSector().getName()}"></td>
+            <td><a th:href="@{/edit-item/__${item.id}__ }">Edit</a></td>
+            <td><a th:href="@{/delete-item/__${item.id}__ }">Delete</a></td>
+        </tr>
+    </th:block>
+
+</table>
+</body>
+</html>
